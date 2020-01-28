@@ -1,0 +1,96 @@
+body{
+    display: flex; 
+    background-color: black;
+    flex-direction: column; 
+}
+
+/* Esto es un menu horizontal */
+h1{
+    display: flex;
+    color: white;
+    align-self: center;
+}
+#menu{
+    display: flex;
+    justify-content: center;
+}
+a{
+    display: block;
+    font-weight:900;
+    padding: .6em;
+    text-decoration: none; 
+    color: black; 
+    width: 100px;
+}
+ul{
+    display: flex;
+   
+}
+li{
+    float: left;
+    overflow: hidden;
+    margin: 1%;
+   /*  border-left: 1px solid black; */
+}
+#enlace1 a {
+    color: red;
+    border-bottom: 2px solid red;
+    text-decoration: none;
+}
+#enlace1:hover a {
+    color: black;
+    border-bottom: 2px solid black; 
+    background-color: red;
+}
+#enlace2 a {
+    color: orange;
+    border-bottom: 2px solid orange; 
+}
+
+#enlace2:hover a {
+    color: yellow;
+    border-bottom: 2px solid yellow; 
+}
+#enlace3 a {
+    color: orangered;
+    border-bottom: 2px solid orangered; 
+
+}
+#enlace3:hover a {
+    color: rebeccapurple;
+    border-bottom: 2px solid rebeccapurple; 
+}
+#enlace4 a {
+    color: green;
+    border-bottom: 2px solid green; 
+
+}
+#enlace4:hover a {
+    color: rgb(153, 51, 144);
+    border-bottom: 2px solid  rgb(153, 51, 144); 
+}
+#enlace5 a {
+    color: blue;
+    border-bottom: 2px solid blue; 
+
+}
+#enlace5:hover a {
+    color: chocolate;
+    border-bottom: 2px solid chocolate; 
+}
+#enlace6 a {
+    color: darkslategray;
+    border-bottom: 2px solid darkslategray; 
+
+}
+#enlace6:hover a {
+    color: cyan;
+    border-bottom: 2px solid cyan; 
+}
+
+/* MENU VERTICAL BASICO */
+#menu2{
+    background: white;
+    display: flex;
+  
+}

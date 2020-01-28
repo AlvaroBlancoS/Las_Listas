@@ -1,0 +1,32 @@
+body{
+    display: flex;  
+    flex-direction: column;
+  
+}
+/* Estoy es un menu horizontal */
+h1{
+    align-self: center;
+}
+.menu{
+    margin-bottom: 100%;
+    font-style: normal; 
+    border: 1px solid grey;
+    border-bottom: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    align-self: center;
+}
+li.listas{
+    list-style-image: url(img/flecha_inactiva3.png) ; 
+    border-bottom: 2px solid grey;    
+}
+li.listas:hover{
+    list-style-image: url(img/flecha_activo.png);
+    background: #E4E4E4;
+    border-bottom: 2px solid grey; 
+}
+a.enlaces{
+    text-decoration: none;
+    color: black;
+}
